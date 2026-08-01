@@ -35,6 +35,8 @@ jobs:
 
     create_github_release:
         runs-on: ubuntu-latest
+        permissions:
+          contents: write
         needs: check_if_version_upgraded
         if: needs.check_if_version_upgraded.outputs.is_upgraded_version == 'true'
         steps:
