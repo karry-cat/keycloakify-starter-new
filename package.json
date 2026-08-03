@@ -1,7 +1,7 @@
 {
-    "name": "keycloakify-starter",
+    "name": "keycloakify-theme-example-corp",
     "version": "0.0.1",
-    "description": "Starter for Keycloakify 11",
+    "description": "Keycloak login theme for Example Corp",
     "repository": {
         "type": "git",
         "url": "git://github.com/codegouvfr/keycloakify-starter.git"

@@ -9,7 +9,13 @@ export default defineConfig({
         tailwindcss(),
         react(),
         keycloakify({
-            accountThemeImplementation: "none"
+            themeName: "example-corp",
+            artifactId: "keycloak-theme-example-corp",
+            accountThemeImplementation: "none",
+            keycloakVersionTargets: {
+                "22-to-25": false,
+                "all-other-versions": "keycloak-theme-example-corp.jar"
+            }
         })
     ]
 });
