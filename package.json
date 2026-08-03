@@ -1,6 +1,6 @@
 {
     "name": "keycloakify-theme-example-corp",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Keycloak login theme for Example Corp",
     "repository": {
         "type": "git",
